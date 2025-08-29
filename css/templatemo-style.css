@@ -92,6 +92,8 @@ a:focus {
 }
 p {
   margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: 400;
 }
 h1,
 h2,
@@ -389,7 +391,6 @@ color: var(--np-forest-green);
 }
 .welcome-title {
   font-weight: 700;
-  font-size: 100px;
   margin-bottom: 10px;
   letter-spacing:0.02em;
 }
