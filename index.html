@@ -57,7 +57,7 @@
             </div>
         </header>
 
-        <video autoplay muted loop playsinline  poster="images/img-bg.webp">
+        <video autoplay muted loop playsinline  poster="images/bg-responsive.jpg">
           <source src="images/video-bg.webm" type="video/mp4">
         </video>  
  
@@ -70,10 +70,26 @@
                         <br>
                         <!--<p class="animate mb-0 np-forest-green" data-animate="fadeInUp" >Licenciado en</p>-->
                         <h1 class="welcome-title display-4 animate" data-animate="fadeInUp"> Nutricionista Dietista </h1>
-                        <span>Santiago, Chile <span class="welcome-title"> · Disponibilidad inmediata</span></span>
+                        <!-- Versión móvil (chico) -->
+                        <span class="d-inline d-md-none fs-6">
+                        Santiago, Chile
+                        <span class="">&middot; <strong>Disponibilidad inmediata</strong></span>
+                        </span>
+
+                        <!-- Versión md+ (tamaño original) -->
+                        <span class="d-none d-md-inline fs-md-4">
+                        Santiago, Chile
+                        <span class="welcome-title fs-md-4">&middot; Disponibilidad inmediata</span>
+                        </span>
+
                         <div class="mt-3">
-                          <a href="mailto:nutricionistafcogomez@gmail.com" class="text-dark me-3"><i class="bi bi-envelope"></i> nutricionistafcogomez@gmail.com</a>
-                          <a href="tel:+56982432762" class="text-dark"><i class="bi bi-telephone"></i> +56 9 8243 2762</a>
+<a href="mailto:nutricionistafcogomez@gmail.com" class="text-dark me-md-3">
+  <i class="bi bi-envelope"></i> nutricionistafcogomez@gmail.com
+</a>
+<a href="tel:+56982432762" class="text-dark d-block d-md-inline mt-1 mt-md-0">
+  <i class="bi bi-telephone"></i> +56 9 8243 2762
+</a>
+
                         </div>
                         <div class="scroll-down next-section animate" data-animate="fadeInUp"><img src="images/mouse-scroll.webp" alt=""><span>Bajar</span></div>
                     </div>
@@ -452,7 +468,7 @@
 
     <script src="js/fullpage.min.js"></script>
 
-    <script src="js/scrolloverflow.js"></script>
+
 
     <script src="js/owl.carousel.min.js"></script>
 
